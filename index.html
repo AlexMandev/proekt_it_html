@@ -23,6 +23,7 @@
 		}
 		nav ul{
 			text-align: center;
+			margin-right: 50px;
 		}
 		nav ul li{
 			display: inline-block;
@@ -35,15 +36,29 @@
 			font-size: 17px;
 			font-weight: bolder;
 		}
-		img{
-			width: 100%; 
+		.home{
+			width: 100%;
 			object-fit: scale-down;
 			margin: 0;
+			padding: 0;
+		}
+		.logo{
+			object-fit: scale-down;
+			width: 64px;
+			float: left;
+			margin-top: 10px;
+		}
+		.bg-blur{
+			width: 100%;
+		}
+		a:hover{
+			color: lightblue;
 		}
 	</style>
 </head>
 <body>
 	<nav class="navigation">
+		<img class="logo" src="logo.png">
 		<ul>
 			<li><a href="#">Начало</a></li>
 			<li><a href="#">Обекти</a></li>
@@ -51,7 +66,8 @@
 		</ul>
 	</nav>	
 	
-	<img src="varna.jpg">
+	<img class="bg-blur" src="home_page_blur.jpg">
+	
 
 
 	
