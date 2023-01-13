@@ -43,11 +43,10 @@
 		h2.descr{
 			margin: 30% auto 5% auto;
 			width: 66%;
-			height: auto%;
+			height: auto;
 			display: block;
 			color: white;
 			font-weight: normal;
-			text-shadow: 2px 2px black;
 		}
 		h4{
 			margin-bottom: 1%;
@@ -73,12 +72,12 @@
 		.intro.white{
 			color: white;
 			margin-top: 0;
-			text-shadow: 2px 2px black;
 		}
 		div.aboutus{
 			background-image: url('ofis2.png');
 			background-repeat: no-repeat;
 			background-size: cover;
+			width: 100%;
 		}
 		div.team{
 			width: 66%;
@@ -94,6 +93,58 @@
 			width: 45%;
 			height: auto;
 		}
+		form{
+			width: 62%;
+			margin: 9% auto 0 auto;
+		}
+		input,textarea{
+			border-color: black;
+			border-style: solid;
+			border-width: 1px;
+			color: black;
+			background-color: white;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			width: 100%;
+			margin-bottom: 3%;
+		}
+		input.small{
+			width: 48%;
+			margin-top: 3%;
+		}
+		input.small.right{
+			float: right;
+		}
+		::placeholder{
+			text-indent: 1%;
+			color: black;
+			font-family: Calibri;
+		}
+		span.button{
+			background-color: #0082e6;
+			color: white;
+			width: auto;
+			font-weight: bold;
+			display: inline-block;
+			padding: 0.7% 1%;
+			text-align: center;
+			display: table;
+			margin: 0 auto 5%;
+		}
+		footer{
+            height: 80px;
+            background-color: #0082e6;
+            display: block;
+        }
+        footer h1{
+            color: white;
+            line-height: 80px;
+            text-align: left;
+            margin-left: 3.625%;
+        }
+        textarea{
+        	resize: none;
+        }
 	</style>
 </head>
 <body>
@@ -109,7 +160,6 @@
 	<p class="intro white">Кои сме ние?</p>
 
 	<h2 class="descr">Тук ще има някакъв текст, който описва нашата компания и целите ни. Тук ще има някакъв текст, който описва нашата компания и целите ни. Тук ще има някакъв текст, който описва нашата компания и целите ни. Тук ще има някакъв текст, който описва нашата компания и целите ни. Тук ще има някакъв текст, който описва нашата компания и целите ни. Тук ще има някакъв текст, който описва нашата компания и целите ни. Тук ще има някакъв текст, който описва нашата компания и целите ни.</h2>
-	<!-- <h2 class="descr"></h2> -->
 	</div>
 
 	<div class="team">
@@ -132,5 +182,19 @@
 			<h4 class="normal"></h4>
 		</div>
 	</div>
+
+	<form>
+		<h1>Изпратете ни съобщение</h1>
+		<input type="text" name="personName" placeholder="Вашето име..." class="small">
+		<input type="еmail" name="personEmail" placeholder="Вашият имейл..." class="small right">
+		<input type="text" name="subject" placeholder="Тема на съобщението...">
+		<textarea rows="8" placeholder="Вашето съобщение..."></textarea>
+	</form>
+
+	<a href="#" onClick="return false;"><span class="button">Изпращане на съобщението</span></a>
+
+	<h1 style="margin-bottom: 1%;">Или ни се обадете на телефон +359 8324 29 61</h1>
+
+	<footer><h1>Някво име&#169; - ВСИЧКИ ПРАВА ЗАПАЗЕНИ </h1></footer>
 </body>
 </html>
