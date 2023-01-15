@@ -107,13 +107,40 @@
 			margin-top: 2%;
 			margin-left: 1%;
 		}
+		.background{
+			background-image: url("manastir/manastir_bg.jpg");
+			background-size: cover;
+			width: 100%;
+			background-position: center;
+		}
+		.container{
+			width: 85%;
+			margin: 100px auto 0 auto;
+			background-color: #ebebeb;
+			opacity: 95%;
+			height: 1800px;
+			font-family: "Trebuchet MS", sans-serif;
+		}
+		h1.title{
+			width: 100%;
+			text-align: center;
+			padding-top: 1.5%;
+			padding-bottom: 2%;
+		}
 	</style>
 </head>
 <body>
-	<header>
-		<img class="logo" src="website-logo.png">
-		<h1 class="logo">Някво име</h1>
+	<div class="background">
+		<div class="container">
+			<h1 class="title">Манастир „Св. Св. Константин и Елена"</h1>
+		</div>
+	</div>
 
+	<header>
+		<a href="index.html">
+			<img class="logo" src="website-logo.png">
+			<h1 class="logo">Някво име</h1>
+		</a>
 		<ul>
 			<li><a href="index.html" class="links">Начало</a></li>
 			<li class="dropdown">
@@ -128,7 +155,7 @@
 					<a href="kamchiq.html">Устието на река Камчия</a>
 				</div>
 			</li>
-			<li><a href="" class="links">Контакти</a></li>
+			<li><a href="contacts_page.html" class="links">Контакти</a></li>
 		</ul>
 	</header>
 </body>

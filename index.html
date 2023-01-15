@@ -115,9 +115,10 @@
 		.container{
 			width: 100%;
 			margin: auto;
-			background-color: #ebebeb;
-			padding-top: 5%;
+			background-color: white;
+			padding-top: 2.5%;
 			padding-bottom: 5%;
+			font-family: "Trebuchet MS", sans-sarif;
 		}
 		p.introduction{
 			text-align: center;
@@ -140,13 +141,20 @@
 			font-family: "Trebuchet MS", sans-serif;
 			margin-top: 2.5%;
 			font-size: 30pt;
+			padding-top: 2%;
 		}
 		h1.title{
-
+			text-align: center;
+			padding-bottom: 0.5%;
 		}
 		table{
 			width: 100%;
-			margin-top: 3%;
+			margin-top: 1%;
+
+			padding-top: 3%;
+		}
+		div.table{
+			background-color: #ebebeb;
 		}
 		td div{
 			border-radius: 10px;
@@ -207,79 +215,84 @@
 	<img class="bg-blur" src="home_page_blur.jpg">	
 
 	<div class="container">
-		<h1>Туризъм във Варна</h1>
+		<h1 class="title">Туризъм във Варна</h1>
 		<p class="introduction">Ако сте турист във Варна, или пък живеете в морската столица със сигурност сте се чудили какво място да посетите, било то за 1 ден, или за уикенд.<br>
 			Във Варненска област има богат избор от места, но за да ви улесним сме събрали информация за 6 от тях.
 		</p>	
 	</div>
-	<h1 class="landmarks" id="landmarks">Обекти</h1>
+	
 
-	<table>
-		<tbody>
-			<tr>
-				<td>
-					<div class="div-1">
-						<a href="skali.html">
-							<div class="blue-layer">
-								<h3>Чудните скали</h3>
-							</div>
-						</a>
-					</div>
-				</td>
-				<td>
-					<div class="div-2">
-						<a href="etnografski.html">
-							<div class="blue-layer">
-								<h3>Етнографски музей</h3>
-							</div>
-						</a>
-					</div>
-				</td>
-				<td>
-					<div class="div-3">
-						<a href="istoricheski_park.html">
-							<div class="blue-layer">
-								<h3>Исторически парк</h3>
-							</div>
-						</a>				
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<div class="div-4">
-						<a href="nova_varna.html">
-							<div class="blue-layer">
-								<h3>Музей "Нова история на Варна"</h3>
-							</div>
-						</a>			
-					</div>
-				</td>
-				<td>
-					<div class="div-5">	
-						<a href="manastir.html">
-							<div class="blue-layer">
-								<h3>Манастир "Св. Св. Константин и Елена"</h3>
-							</div>
-						</a>			
-					</div>
-				</td>
-				<td>
-					<div class="div-6">
-						<a href="kamchiq.html">
-							<div class="blue-layer">
-								<h3>Устието на река Камчия</h3>
-							</div>
-						</a>		
-					</div>
-				</td>
-			</tr>
-		</tbody>
-	</table>	
+	<div class="table">
+		<h1 class="landmarks" id="landmarks">Обекти</h1>
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<div class="div-1">
+							<a href="skali.html">
+								<div class="blue-layer">
+									<h3>Чудните скали</h3>
+								</div>
+							</a>
+						</div>
+					</td>
+					<td>
+						<div class="div-2">
+							<a href="etnografski.html">
+								<div class="blue-layer">
+									<h3>Етнографски музей</h3>
+								</div>
+							</a>
+						</div>
+					</td>
+					<td>
+						<div class="div-3">
+							<a href="istoricheski_park.html">
+								<div class="blue-layer">
+									<h3>Исторически парк</h3>
+								</div>
+							</a>				
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="div-4">
+							<a href="nova_varna.html">
+								<div class="blue-layer">
+									<h3>Музей "Нова история на Варна"</h3>
+								</div>
+							</a>			
+						</div>
+					</td>
+					<td>
+						<div class="div-5">	
+							<a href="manastir.html">
+								<div class="blue-layer">
+									<h3>Манастир "Св. Св. Константин и Елена"</h3>
+								</div>
+							</a>			
+						</div>
+					</td>
+					<td>
+						<div class="div-6">
+							<a href="kamchiq.html">
+								<div class="blue-layer">
+									<h3>Устието на река Камчия</h3>
+								</div>
+							</a>		
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>	
+	</div>	
 
 	<header>
-		<img class="logo" src="website-logo.png">
-		<h1 class="logo">Някво име</h1>
+		<a href="index.html">
+			<img class="logo" src="website-logo.png">
+			<h1 class="logo">Някво име</h1>
+		</a>
 
 		<ul>
 			<li><a href="index.html" class="links">Начало</a></li>
@@ -295,7 +308,7 @@
 					<a href="kamchiq.html">Устието на река Камчия</a>
 				</div>
 			</li>
-			<li><a href="" class="links">Контакти</a></li>
+			<li><a href="contacts_page.html" class="links">Контакти</a></li>
 		</ul>
 	</header>
 		

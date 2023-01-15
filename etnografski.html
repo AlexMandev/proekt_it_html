@@ -15,6 +15,12 @@
 		body{
 
 		}
+		.background{
+			background-image: url("etnografski/etnografski-bg.jpg");
+			background-size: cover;
+			width: 100%;
+			background-position: center;
+		}
 		header{
 			display: block;
 			background-color: #0082e6;
@@ -107,12 +113,93 @@
 			margin-top: 2%;
 			margin-left: 1%;
 		}
+		.container{
+			width: 85%;
+			margin: 100px auto 0 auto;
+			background-color: #ebebeb;
+			opacity: 95%;
+			height: 1800px;
+			font-family: "Trebuchet MS", sans-serif;
+		}
+		h1.title{
+			width: 100%;
+			text-align: center;
+			padding-top: 1.5%;
+			padding-bottom: 2%;
+		}
+		p{
+			font-size: 15pt;
+			margin-left: 3%;
+			margin-bottom: 1%;
+		}
+		p.text-1{
+			margin-right: 3%;
+			margin-left: 3%;
+		}
+		p.text-2{
+			margin-right: 2%;
+		}
+		img{
+			display: inline-block;
+			width: 30%;
+			margin-right: 1%;
+		}
+		img.img-1{
+			float: left;
+			width: 30%;
+			margin-left: 3%;
+			margin-right: 2%;
+		}
+		img.img-2{
+			width: 33.5%;
+		}
+		div.images-1{
+			margin-left: 2%;
+			margin-bottom: 3%;
+		}
+		div.images-2{
+			margin-bottom: 2%;
+			margin-left: 3%;
+			width: 99%;
+		}
 	</style>
 </head>
 <body>
+
+	<div class="background">
+		<div class="container">
+			<h1 class="title">Етнографски музей</h1>
+
+			
+			<img class="img-1" src="etnografski/etnografski_1.jpg">
+
+			<p class="text-1">Етнографският музей – Варна е открит на 27 юли 1974 г. Музеят е разположен във възрожденска къща от типа “Симетрични къщи”, която е построена около 1860 година. В музея е показано богатото разнообразие в културата и бита на населението на Варненския край от втората половина на XIX и началото на XX в.<br> <br>
+			В музея са изложени демонстрации на основните поминъци на българите от Варненско – земеделие, животновъдство, пчеларство, риболов, лозарство и занаяти, като бъчварство, медникарство, кожухарство и абаджийство (шивачи).
+			</p>
+
+			<p class="text-2">Интересен експонат в музея е старинният малък плуг "дьолмеджа", използван за оране на земята до началото на XX в. Показани са още съдове за съхраняване на зърното, както и за приготвяне на хляб – чит, кухел, нощови (дървено корито), лопати за хляб. В експозицията на музея са представени и два трудови обичая, свързани със сеитбата и жътвата.</p>
+
+			<h1 class="title">Снимки</h1>
+
+			<div class="images-1">
+				<img class="img-2" src="etnografski/etnografski_2.jpg">
+				<img src="etnografski/etnografski_3.jpg">
+				<img src="etnografski/etnografski_4.jpg">
+			</div>
+			
+			<div class="images-2">
+				<img src="etnografski/etnografski_5.jpg">
+				<img src="etnografski/etnografski_6.jpg">
+				<img src="etnografski/etnografski_7.jpg">
+			</div>
+		</div>
+	</div>
+
 	<header>
-		<img class="logo" src="website-logo.png">
-		<h1 class="logo">Някво име</h1>
+		<a href="index.html">
+			<img class="logo" src="website-logo.png">
+			<h1 class="logo">Някво име</h1>
+		</a>
 
 		<ul>
 			<li><a href="index.html" class="links">Начало</a></li>
@@ -128,7 +215,7 @@
 					<a href="kamchiq.html">Устието на река Камчия</a>
 				</div>
 			</li>
-			<li><a href="" class="links">Контакти</a></li>
+			<li><a href="contacts_page.html" class="links">Контакти</a></li>
 		</ul>
 	</header>
 </body>
