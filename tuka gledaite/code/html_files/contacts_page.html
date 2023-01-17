@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/code/css_files/header.css">
+	<link rel="stylesheet" href="/code/css_files/footer.css">
 	<style type="text/css">
 		*{
 			margin: 0;
@@ -10,103 +12,6 @@
 			text-decoration: none;
 			list-style: none;
 			box-sizing: border-box;
-		}
-		header{
-			display: block;
-			background-color: #0082e6;
-			height: 100px;
-			width: 100%;
-			float: left;
-			position: fixed;
-			top: 0%;
-		}
-		.logo{
-			object-fit: scale-down;
-			width: 80px;
-			float: left;
-			margin-top: 10px;
-			margin-left: 3%;
-		}
-		.bg-blur{
-			width: 100%;
-			margin: 0;
-			margin-top: 100px;
-		}
-		header ul{
-			font-family: "Trebuchet MS", sans-serif;
-			color: white;
-			font-weight: bolder;
-		}
-		header ul li{
-			display: inline-block;
-			line-height: 100px;
-			margin: 0 5px;
-			height: 20px;
-		}
-		a.links{
-			color: white;
-			font-size: 17px;
-			padding: 7px 13px;
-			border-radius: 5px;
-			margin-right: 30px;
-			margin-left: 30px;
-			text-align: center;
-		}
-		.dropdown{
-			height: 0px;
-			margin: auto;
-		}
-		.dropdown:hover .dropdown-content{
-			display: block;
-		}
-		a.dropdown-link{
-			color: white;
-			font-size: 17px;
-			border-radius: 5px;
-			text-align: center;
-			padding: 7px 13px;
-		}
-		a.dropdown-link:hover .dropdown-content{
-			display: block;
-		}
-		.dropdown-content{
-			background-color: #0279d4;
-			width: 25%;
-			position: absolute;
-			top: 65px;
-			right: 35%;
-			height: 180%;
-			display: none;
-			border-radius: 10px;
-		}
-		.dropdown-content a{
-			display: block;
-			padding: 0px;
-			margin: 0px;
-			width: 100%;
-			text-align: center;
-			height: 30px;
-			line-height: 20px;
-			border-radius: 10px;
-			padding-top: 1%;
-			color: white;
-		}
-		header a.active, header a:hover{
-			color: lightblue;
-			background-color: #1b9bff;
-		}
-		header a:hover .dropdown-content{
-			display: block;
-		}
-		h1.logo{
-			color: white;
-			stroke: black 1px;
-			text-shadow: black 1px 2px;
-			width: 30%;
-			display: inline-block;
-			margin-top: 2%;
-			margin-left: 1%;
-			text-align: left;
 		}
 		p,h1,h2,h3,h4,h5,h6, div{
 			text-align: center;
@@ -142,7 +47,7 @@
 			margin-top: 5%;
 		}
 		div.aboutus{
-			background-image: url('ofis2.png');
+			background-image: url('/photos/contacts/ofis2.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100%;
@@ -210,7 +115,6 @@
             color: white;
             line-height: 60px;
             text-align: left;
-            float: left;
             display: inline-block;
             margin: 0;
             margin-left: 20%;
@@ -237,7 +141,7 @@
 <body>
 	<header>
 		<a href="index.html">
-			<img class="logo" src="website-logo.png">
+			<img class="logo" src="/photos/website-logo.png">
 			<h1 class="logo">Примат</h1>
 		</a>
 
@@ -268,19 +172,19 @@
 	<div class="team">
 		<p class="intro">Отбор</p>
 		<div class="member">
-			<img src="aleksandur_mandev.png" class="member">
+			<img src="/photos/contacts/aleksandur_mandev.png" class="member">
 			<h3>Александър Мандев</h3>
 			<h4 class="normal">Прекарал немалка част от краткия си живот из Шуменските килии, Александър може да се похвали с обширния си мироглед и всестранно развитото си мислене. Най-често той се нагърбя със задачата да предлага идеи на екипа по различните ни проекти.</h4>
 		</div>
 
 		<div class="member">
-			<img src="petar_dobrev.png" class="member">
+			<img src="/photos/contacts/petar_dobrev.png" class="member">
 			<h3>Петър Добрев</h3>
 			<h4 class="normal">Нашият мениджър с богат опит в сферата на информационните технологии, доказал се в добре познатите фирми "За риба" и "На лов". След дълги часове, прекарани в киксбоксинг залата, може да се каже, че е способен да <b>пребори</b> всеки проблем, появил се пред екипа.</h4>
 		</div>
 
 		<div class="member">
-			<img src="emil_trifonov.png" class="member">
+			<img src="/photos/contacts/emil_trifonov.png" class="member">
 			<h3>Емил Трифонов</h3>
 			<h4 class="normal"></h4>
 		</div>
@@ -295,11 +199,14 @@
 	</form>
 
 	<a href="#" onClick="return false;"><span class="button">Изпращане на съобщението</span></a>
-
 	<footer>
-		<h3 class="footer">&#169;2009-2023 Примат - всички права запазени&emsp;&emsp;&emsp;&emsp;&emsp;<a class="map">Карта на сайта<a></h3>
+		<h3 class="footer">&#169;
+			2023-2023 Примат - Всички права запазени.</h3>
+			
+			<h3 class="footer"><a class="map">Карта на сайта</a></h3>
+		
 
-		<h3 class="footer right">Телефон: 052 8324 29 61</h3>
+		<h3 class="footer">Телефон: 0521234567</h3>
 	</footer>
 </body>
 </html>

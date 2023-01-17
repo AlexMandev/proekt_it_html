@@ -90,3 +90,7 @@
 			margin-top: 2%;
 			margin-left: 1%;
 		}
+		iframe{
+			margin-top: 50px;
+			padding-bottom: 50px;
+		}

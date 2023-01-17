@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="/code/css_files/header.css">
+	<link rel="stylesheet" href="/code/css_files/footer.css">
 	<style type="text/css">
 		*{
 			margin: 0;
@@ -14,109 +15,18 @@
 			box-sizing: border-box;
 		}
 		.background{
-			background-image: url("etnografski/etnografski-bg.jpg");
+			background-image: url("/photos/etnografski/etnografski-bg.jpg");
 			background-size: cover;
 			width: 100%;
 			background-position: center;
 		}
-		header{
-			display: block;
-			background-color: #0082e6;
-			height: 100px;
-			width: 100%;
-			float: left;
-			position: fixed;
-			top: 0%;
-		}
-		.logo{
-			object-fit: scale-down;
-			width: 80px;
-			float: left;
-			margin-top: 10px;
-			margin-left: 3%;
-		}
-		header ul{
-			margin-left: 39%;
-			font-family: "Trebuchet MS", sans-serif;
-			color: white;
-			font-weight: bolder;
-		}
-		header ul li{
-			display: inline-block;
-			line-height: 100px;
-			margin: 0 5px;
-			height: 20px;
-		}
-		a.links{
-			color: white;
-			font-size: 17px;
-			padding: 7px 13px;
-			border-radius: 5px;
-			margin-right: 30px;
-			margin-left: 30px;
-			text-align: center;
-		}
-		.dropdown{
-			height: 0px;
-			margin: auto;
-		}
-		.dropdown:hover .dropdown-content{
-			display: block;
-		}
-		a.dropdown-link{
-			color: white;
-			font-size: 17px;
-			border-radius: 5px;
-			text-align: center;
-			padding: 7px 13px;
-		}
-		a.dropdown-link:hover .dropdown-content{
-			display: block;
-		}
-		.dropdown-content{
-			background-color: #0279d4;
-			width: 25%;
-			position: absolute;
-			top: 65px;
-			right: 35%;
-			height: 180%;
-			display: none;
-			border-radius: 10px;
-		}
-		.dropdown-content a{
-			display: block;
-			padding: 0px;
-			margin: 0px;
-			width: 100%;
-			text-align: center;
-			height: 30px;
-			line-height: 20px;
-			border-radius: 10px;
-			padding-top: 1%;
-			color: white;
-		}
-		header a.active, header a:hover{
-			color: lightblue;
-			background-color: #1b9bff;
-		}
-		header a:hover .dropdown-content{
-			display: block;
-		}
-		h1.logo{
-			color: white;
-			stroke: black 1px;
-			text-shadow: black 1px 2px;
-			width: 30%;
-			display: inline-block;
-			margin-top: 2%;
-			margin-left: 1%;
-		}
 		.container{
 			width: 85%;
+			max-width: 1300px;
 			margin: 100px auto 0 auto;
 			background-color: #ebebeb;
 			opacity: 95%;
-			height: 1800px;
+			height: 100%;
 			font-family: "Trebuchet MS", sans-serif;
 		}
 		h1.title{
@@ -178,7 +88,7 @@
 			<h1 class="title">Етнографски музей</h1>
 
 			
-			<img class="img-1" src="etnografski/etnografski_1.jpg">
+			<img class="img-1" src="/photos/etnografski/etnografski_1.jpg">
 
 			<p class="text-1">Етнографският музей – Варна е открит на 27 юли 1974 г. Музеят е разположен във възрожденска къща от типа “Симетрични къщи”, която е построена около 1860 година. В музея е показано богатото разнообразие в културата и бита на населението на Варненския край от втората половина на XIX и началото на XX в.<br> <br>
 			В музея са изложени демонстрации на основните поминъци на българите от Варненско – земеделие, животновъдство, пчеларство, риболов, лозарство и занаяти, като бъчварство, медникарство, кожухарство и абаджийство (шивачи).
@@ -189,15 +99,15 @@
 			<h1 class="title">Снимки</h1>
 
 			<div class="images-1">
-				<img class="img-2" src="etnografski/etnografski_2.jpg">
-				<img src="etnografski/etnografski_3.jpg">
-				<img src="etnografski/etnografski_4.jpg">
+				<img class="img-2" src="/photos/etnografski/etnografski_2.jpg">
+				<img src="/photos/etnografski/etnografski_3.jpg">
+				<img src="/photos/etnografski/etnografski_4.jpg">
 			</div>
 			
 			<div class="images-2">
-				<img src="etnografski/etnografski_5.jpg">
-				<img src="etnografski/etnografski_6.jpg">
-				<img src="etnografski/etnografski_7.jpg">
+				<img src="/photos/etnografski/etnografski_5.jpg">
+				<img src="/photos/etnografski/etnografski_6.jpg">
+				<img src="/photos/etnografski/etnografski_7.jpg">
 
 				<h3>Вход:</h3>
 				<p>Вход за възрастни: 5.00 лв<br>
@@ -211,14 +121,14 @@
 				<p>ул. "Панагюрище" 22<br>
 Тел. +359 52 630 588</p>
 
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11633.605514257231!2d27.91342!3d43.20107!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc43156f74a522056!2z0JXRgtC90L7Qs9GA0LDRhNGB0LrQuCDQvNGD0LfQtdC5!5e0!3m2!1sbg!2sbg!4v1673810288911!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11633.605514257231!2d27.91342!3d43.20107!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc43156f74a522056!2z0JXRgtC90L7Qs9GA0LDRhNGB0LrQuCDQvNGD0LfQtdC5!5e0!3m2!1sbg!2sbg!4v1673810288911!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
 	</div>
 
 	<header>
 		<a href="index.html">
-			<img class="logo" src="website-logo.png">
+			<img class="logo" src="/photos/website-logo.png">
 			<h1 class="logo">Някво име</h1>
 		</a>
 
@@ -239,5 +149,15 @@
 			<li><a href="contacts_page.html" class="links">Контакти</a></li>
 		</ul>
 	</header>
+
+	<footer>
+		<h3 class="footer">&#169;
+			2023-2023 Примат - Всички права запазени.</h3>
+			
+			<h3 class="footer"><a class="map">Карта на сайта</a></h3>
+		
+
+		<h3 class="footer">Телефон: 0521234567</h3>
+	</footer>
 </body>
 </html>

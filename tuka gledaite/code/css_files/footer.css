@@ -1,0 +1,14 @@
+footer{
+    height: 65px;
+    background-color: #0279d4;
+    display: block;
+}
+h3.footer{
+    color: white;
+    line-height: 60px;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0% 10% 0% 10%;
+    font-size: 17px;
+}
