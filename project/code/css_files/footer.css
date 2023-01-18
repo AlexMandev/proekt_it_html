@@ -12,3 +12,10 @@ h3.footer{
     padding: 0% 10% 0% 10%;
     font-size: 17px;
 }
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover{
+    cursor: pointer;
+}
